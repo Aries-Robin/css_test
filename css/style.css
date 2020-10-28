@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(14, 48, 95);
+}
+
+.main {
+    width: 1167px;
+    height: auto;
+    margin: 100px auto;
+    padding-top: 26px;
+    padding-bottom: 1px;
+    display: block;
+    background-color: white;
+}
+
+.title-txt {
+    margin-left: 28px;
+    margin-bottom: 28px;
+    font-size: 34px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1078px;
+    height: auto;
+    margin: 9px auto;
+    padding: 21px 16px;
+    border: rgb(235, 240, 244) solid 1px;
+}
+
+.date-txt {
+    font-size: 28px;
+}
+
+.month-txt {
+    font-size: 12px;
+}
+
+.place {
+    margin-left: -130px;
+    width: 250px;
+}
+
+.flag-img {
+    float: left;
+    width: 64px;
+    height: 42px;
+    margin-right: 14px;
+}
+
+.state-txt {
+    font-size: 14px;
+}
+
+.match-txt {
+    margin: 4px;
+    font-size: 11px;
+}
+
+.comment-txt {
+    font-size: 10px;
+    color: rgb(103, 222, 153);
+}
+
+
+.explore-txt {
+    padding: 19px;
+    background-color: rgb(14, 48, 95);
+    color: white;
+    font-size: 11px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .main {
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .time {
+        float: left;
+    }
+
+    .place {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1067px) {
+    .main {
+        width: 90%;
+    }
+
+    .title-txt {
+        margin-left: 8%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .place {
+        margin-left: 0;
+    }
+
+}
